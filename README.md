@@ -1,8 +1,16 @@
 # Unser-Projekt
 ### Inhaltsverzeichnis
-- [Die Spielidee](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#elemente-des-spiels)
+- [Die Spielidee](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#die-spielidee)
 - [Übersicht zur Steuerung](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#%C3%BCbersicht-zur-steuerung)
-- [Elemente des Spiels](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#die-spielidee)
+- [Elemente des Spiels](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#elemente-des-spiels)
+  1. [Startbildschirm](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#1-startbildschirm)
+  2. [Raumschiff](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#2-raumschiff)
+  3. [Laser](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#3-laser)
+  4. [Meteroiten](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#4-meteroiten)
+  5. [Farbauswahl](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#5-farbauswahl)
+  6. [Schriftzüge](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6-schriftz%C3%BCge)
+    6a. ["Bewege dich mit den Pfeiltasten nach Oben und Unten"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6a-bewege-die-mit-den-pfeiltasten-nach-oben-und-unten)
+    6b. ["Drücke "a" zum Schießen"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6b-dr%C3%BCcke-a-zum-schie%C3%9Fen)
 
 ## Die Spielidee
 Das Spiel kann man den Arkade-Shootern zuordnen. Die Idee ist, dass man ein Raumschiff auf der linken Seite des Bildschirms steuert um den Meteroiten, die von links nach rechts über den Bildschirm fliegen, ausweicht und diese zerschießt.
@@ -89,6 +97,5 @@ Aussehen des Sprites:
 Aussehen des Bildschirms:
 ![Download](https://user-images.githubusercontent.com/111415429/208243557-22cf11d7-5fc6-467c-a2eb-45489e5c2b53.png)
 ##### 6. Schriftzüge
-  ###### 6a. "Bewege die mit den Pfeiltasten nach Oben und Unten"
+  ###### 6a. "Bewege dich mit den Pfeiltasten nach Oben und Unten"
   ###### 6b. "Drücke "a" zum Schießen
-  ###### 6c.
