@@ -22,11 +22,16 @@ Zu Anfang des Spiels wird dem Spieler die Steuerung erklärt. Zuerst wird man au
 
 ## Elemente des Spiels
 ##### 1. Startbildschirm
--> Soll zu Anfang des Spiels gezeigt werden und anschließend nicht mehr Auftauschen
+-> Soll zu Anfang des Spiels gezeigt werden und anschließend nicht mehr auftauschen ab dem Moment wo die Leertaste gedrückt wurde
+
 Aussehen des Sprites:
 
 (schwarzes Rechteck ergänzt, damit die weiße Schrift zu erkennen ist)![Download (1)](https://user-images.githubusercontent.com/111415429/208243068-e50f57e7-a4fe-42e8-82ce-84859982030d.png)
+
 Code:
+
+<img width="218" alt="Bildschirmfoto 2022-12-17 um 14 21 25" src="https://user-images.githubusercontent.com/111415429/208245038-92eba36b-899c-46a1-8541-f4fb1f62b22e.png">
+
 
 ##### 2. Raumschiff
 Aussehen des Sprites:
@@ -42,6 +47,10 @@ Aussehen des Sprites:
 - gelb
 
 ![gelb](https://user-images.githubusercontent.com/111415429/208243362-0bddb8d1-aca3-4c51-9ecc-0a877b6abad2.png)
+
+Code zum Auftauchen wenn die Leertaste gedrückt wird & Naustarten wenn die Fahne angeklickt wird:
+
+
 
 ##### 3. Laser
 blau: ![costume1](https://user-images.githubusercontent.com/111415429/208244740-1d18efe7-f0d5-4444-87a8-6cde8b4c5818.svg), grün:  ![costume1 (1)](https://user-images.githubusercontent.com/111415429/208244745-c05175e0-a0ba-4683-97c6-3997447d7889.svg), rot: ![costume1 (2)](https://user-images.githubusercontent.com/111415429/208244751-618e5388-3aa8-445e-9128-b142ed6bf9df.svg), gelb:  ![costume1 (3)](https://user-images.githubusercontent.com/111415429/208244757-c54f6152-cac2-4ab6-947b-785f6caba59c.svg)
