@@ -35,7 +35,9 @@ Aussehen des Sprites:
 - rot![rot](https://user-images.githubusercontent.com/111415429/208243327-fb1973a0-6b4f-4e8b-bbe4-cbcd3e43e607.png)
 - gelb![gelb](https://user-images.githubusercontent.com/111415429/208243362-0bddb8d1-aca3-4c51-9ecc-0a877b6abad2.png)
 
-##### 3. Meteroiten
+##### 3. Laser
+
+##### 4. Meteroiten
 Aussehen des Sprites:
 - Meteroit1
 
@@ -49,10 +51,10 @@ Aussehen des Sprites:
 - Explosion
 
 ![Explosion](https://user-images.githubusercontent.com/111415429/208243470-a56a0e54-3050-4b4f-8c96-968b787303a4.png)
-##### 4. Farbauswahl
+##### 5. Farbauswahl
 Aussehen des Bildschirms:
 ![Download](https://user-images.githubusercontent.com/111415429/208243557-22cf11d7-5fc6-467c-a2eb-45489e5c2b53.png)
-##### 5. Schriftzüge
-  ###### 5a. "Bewege die mit den Pfeiltasten nach Oben und Unten"
-  ###### 5b. "Drücke "a" zum Schießen
-  ###### 5c. "Verloren!"
+##### 6. Schriftzüge
+  ###### 6a. "Bewege die mit den Pfeiltasten nach Oben und Unten"
+  ###### 6b. "Drücke "a" zum Schießen
+  ###### 6c. "Verloren!"
