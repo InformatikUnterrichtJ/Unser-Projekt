@@ -1,14 +1,14 @@
 # Unser-Projekt
 
-So gelangen sie an unser Projekt:
+So gelangen Sie an unser Projekt:
 
--> Laden sie unsere Datei (Informatikprojekt.Paula_und_Juliane.sb3) aus dem Gruppenordner herunter
+-> Laden Sie unsere Datei (Informatikprojekt.Paula_und_Juliane.sb3) aus dem Gruppenordner herunter
 
--> Öffnen sie [diese Website](https://scratch.mit.edu/projects/editor/?tutorial=getStarted)
+-> Öffnen Sie [diese Website](https://scratch.mit.edu/projects/editor/?tutorial=getStarted)
 
--> Klicken sie auf "File" oben links in der Ecke
+-> Klicken Sie auf File" oben links in der Ecke
 
--> Klicken sie auf "Load from your Computer" und öffnen sie unsere Datei
+-> Klicken Sie auf "Load from your Computer" und öffnen sie unsere Datei
 
 ### Inhaltsverzeichnis
 - [Die Spielidee](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#die-spielidee)
