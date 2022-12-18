@@ -8,7 +8,7 @@
   
   II. [Raumschiff](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#ii-raumschiff)
   
-  III. [Laser](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#3-laser)
+  III. [Laser](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#iii-laser)
   
   IV. [Meteroiten](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#4-meteroiten)
   
