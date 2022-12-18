@@ -79,6 +79,18 @@ Die Steuerung der Raumschiffe geschieht durch die Pfeiltasten. Werden diese gedr
 ##### 3. Laser
 blau: ![costume1](https://user-images.githubusercontent.com/111415429/208244740-1d18efe7-f0d5-4444-87a8-6cde8b4c5818.svg), grün:  ![costume1 (1)](https://user-images.githubusercontent.com/111415429/208244745-c05175e0-a0ba-4683-97c6-3997447d7889.svg), rot: ![costume1 (2)](https://user-images.githubusercontent.com/111415429/208244751-618e5388-3aa8-445e-9128-b142ed6bf9df.svg), gelb:  ![costume1 (3)](https://user-images.githubusercontent.com/111415429/208244757-c54f6152-cac2-4ab6-947b-785f6caba59c.svg)
 
+Code:
+
+<img width="492" alt="Bildschirmfoto code_Laser" src="https://user-images.githubusercontent.com/111415429/208293507-d59816b4-bbb7-4e33-842c-3cf6d67680c4.png">
+
+Der Laser soll ebenfalls nicht auf dem Startbildschirm zu sehen sein, weshalb dieser verschwindet sobald die Fahne gedrückt wird.
+
+Nach der Farbauswahl soll nur der farblich zugehörige Laser des ausgewählten Raumschiffes aktiv sein, weshalb die Laser mit den Zahlentasten aktiviert werden. Folglich wird (wie im Beispiel des Screenshots) der blaue Laser auch mit der Eins ausgewählt, was beim grünen, roten und gelben Laser angepasst wurde (grün= 2, rot= 3, gleb= 4).
+
+Ist der Laser aktiv, dadurch das die zugehörige Zahlentaste gedrückt wurde, so durchläuft er eine endlose Schliefe. In der Schleife wartet er darauf, dass "a" gedrückt wird. Tritt dieser Fall ein wird ein Sound abgespielt und ein Klon kreiert. Damit das Drücken der "a"-Taste nur einen Laser abschießt und nicht mehrere, wartet der Laser am Ende der Schleife bis "a" nicht mehr gedrückt wird. So wiederholt sich die Schleife erst, wenn "a" losgelassen und eine kurze Pause abgewartet wurde. Die Pause ist zeitlich nicht wirklich relevant, verhindert jedoch, dass der Laser gespamt wird.
+
+Startet der Laser als Klon, geht er erst zum zugehörigen Raumschiff und zeigt sich dann. Anschließend geht er, bis zum Rand, wo er gelöscht wird, fünfer Schritte auf der x-Achse. Parallel läuft ein Script, welches darauf wartet, dass ein Meteroit berührt wird und den Klon löscht, sobald dies eintrifft. Folglich wird
+
 ##### 4. Meteroiten
 Aussehen des Sprites:
 - Meteroit1
