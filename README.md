@@ -6,7 +6,7 @@ So gelangen Sie an unser Projekt:
 
 -> Öffnen Sie [diese Website](https://scratch.mit.edu/projects/editor/?tutorial=getStarted)
 
--> Klicken Sie auf File" oben links in der Ecke
+-> Klicken Sie auf "File" oben links in der Ecke
 
 -> Klicken Sie auf "Load from your Computer" und öffnen sie unsere Datei
 
