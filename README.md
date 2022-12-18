@@ -168,7 +168,7 @@ Code (Beispiel: button blau):
 
 ##### VI. Schriftzüge
 
-Die Schriftzüge folgen alle demselben Prinzip. Sie sollen zu einem bestimmten Zeitpunkt auftauchen und verschwinden, sobald sie ihre Aufgabe getan haben. Um dies zu erleichtern haben wir den Block „wait until color is picked“ kreiert. Ebenfalls wurde darauf geachtet, dass die Schriftzüge immer in der obersten Lage sind, damit sie nicht verdeckt werden können.
+Die Schriftzüge folgen alle demselben Prinzip. Sie sollen zu einem bestimmten Zeitpunkt auftauchen und verschwinden, sobald sie ihre Aufgabe getan haben. Um dies zu erleichtern, haben wir den Block „wait until color is picked“ kreiert. Ebenfalls wurde darauf geachtet, dass die Schriftzüge immer in der obersten Lage sind, damit sie nicht verdeckt werden können.
 
 <img width="388" alt="Bildschirmfoto 2022-12-18 um 13 38 14" src="https://user-images.githubusercontent.com/111415429/208298817-22fc1529-3257-4d29-bfdf-f0acee00e628.png">
 
