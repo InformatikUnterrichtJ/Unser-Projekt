@@ -41,9 +41,9 @@ Zu Anfang des Spiels wird dem Spieler die Steuerung erklärt. Zuerst wird man au
 
 ## Warum haben wir uns für Scratch entschieden?
 
-Wir haben uns für das Programm Scratch entschieden, da es durch das Blocksystem sehr intuitiv ist. Die Blöcke sind in Kategorien einsortiert, die am linken Bildschirmrand angezeigt werden, wodurch man einen guten Überblick hat. Die Blöcke selber sind farblich gekenntzeichent und können nach Belieben auf dem Bord platziert werden, wodurch der Code sehr übersichtlich dargestellt ist. Im Gegensatz zu Snap! kann man bei Scratch auch Schriftzüge als Kostüm erstellen. Snap! besitzt diese Möglichkeit nicht und schien uns somit nicht passend für unser Projekt zu sein.
+Wir haben uns für das Programm Scratch entschieden, da es durch das Blocksystem sehr intuitiv ist. Die Blöcke sind in Kategorien einsortiert, die am linken Bildschirmrand angezeigt werden, wodurch man einen guten Überblick bekommt. Die Blöcke selber sind farblich gekenntzeichent und können nach Belieben auf dem Bord platziert werden, wodurch der Code sehr übersichtlich dargestellt ist. Im Gegensatz zu Snap! kann man bei Scratch auch Schriftzüge als Kostüm erstellen. Snap! besitzt diese Möglichkeit nicht und schien uns somit nicht passend für unser Projekt zu sein.
 
-Wir haben jedoch nicht nur Scratch für unser Projekt benutzt. Um die Kostüme zu gestallten haben wir die IPad-Version des Programms Affinity Designer genutzt. Da dieses jedoch einen Hinergrund kreiert, wenn die Datei als png oder jpeg exportiert wird, nutzten wir zusätzlich die Website www.remove.bg, um diesen wieder verschwinden zu lassen. 
+Wir haben jedoch nicht nur Scratch für unser Projekt benutzt. Um die Kostüme zu gestallten haben wir die IPad-Version des Programms Affinity Designer genutzt. Da dieses jedoch einen Hinergrund kreiert, wenn die Datei als png oder jpeg exportiert wird, nutzten wir zusätzlich die Website www.remove.bg, um den Hintergrund wieder verschwinden zu lassen. 
 
 ## Übersicht zur Steuerung
 ⚑= Neustarten des Spiels
@@ -56,7 +56,7 @@ Wir haben jedoch nicht nur Scratch für unser Projekt benutzt. Um die Kostüme z
 
 ## Elemente des Spiels
 ##### I. Startbildschirm
--> Soll zu Anfang des Spiels gezeigt werden und anschließend nicht mehr auftauschen ab dem Moment wo die Leertaste gedrückt wurde
+-> Soll zu Anfang des Spiels gezeigt werden und anschließend nicht mehr auftauchen ab dem Moment wo die Leertaste gedrückt wurde
 
 Aussehen des Sprites:
 
@@ -84,13 +84,13 @@ Aussehen des Sprites:
 
 Code:
 
-(beinahe identisch für alle vier Farben)
+(Beinahe identisch für alle vier Farben!)
 
 <img width="204" alt="Bildschirmfoto code_raumschiff neustart" src="https://user-images.githubusercontent.com/111415429/208245666-01aced0d-e601-40aa-8116-3ec6c5702610.png"> 
 
-Damit der Sprite nicht auf dem Startbildschirm zu sehen ist, wird dieser versteckt, wenn die Fahne gedrückt wird.
+Damit der Sprite nicht auf dem Startbildschirm zu sehen ist, wird dieser versteckt, wenn die Fahne angeklickt wird.
 
-Wenn die Leertaste gedrückt wird kommt zuerst die Farbauswahl (siehe "Farbauswahl"). Das Raumschiff taucht durch das drücken der Leertaste bei dem für ihn zugewiesenden Platz bei der Farbauswahl auf. An dieser Stelle werden die farblich unterschiedlichen Raumschiffe auf der Linie mit der x-Koordinate -150 aufgereiht. Die y-Koordinate varriert hierbei je nach Farbe des Raumschiffs (blau= 105, grün= 35, rot= -35, gelb= -105). Außerdem wird die eigene Variable auf Null gesetzt.
+Wenn die Leertaste gedrückt wird kommt zuerst die [Farbauswahl](. Das Raumschiff taucht durch das drücken der Leertaste bei dem für ihn zugewiesenden Platz bei der Farbauswahl auf. An dieser Stelle werden die farblich unterschiedlichen Raumschiffe auf der Linie mit der x-Koordinate -150 aufgereiht. Die y-Koordinate varriert hierbei je nach Farbe des Raumschiffs (blau= 105, grün= 35, rot= -35, gelb= -105). Außerdem wird die eigene Variable auf Null gesetzt.
 
 Anschließend wartet das Raumschiff darauf, dass es von dem Sprite "Meteroit" berührt wird. Tritt dieser Fall ein, so wird das Kostüm erst zur Explosion gewechselt und anschließend verschwindet der Sprite und taucht als "Verloren!"-Schriftzug in der Mitte des Bildschirms auf. Die eigene Variable wird auch hier wieder auf Null gesetzt, damit die Steuerung der Pfeiltasten ausgesetzt wird.
 
