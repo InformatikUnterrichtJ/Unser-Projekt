@@ -1,4 +1,7 @@
 # Unser-Projekt
+
+Öffnen sie unsere Datei auf [dieser Webseite](https://scratch.mit.edu/projects/editor/?tutorial=getStarted) , um zu unserem Projekt zu gelangen.
+
 ### Inhaltsverzeichnis
 - [Die Spielidee](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#die-spielidee)
 - [Übersicht zur Steuerung](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#%C3%BCbersicht-zur-steuerung)
