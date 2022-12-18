@@ -2,7 +2,7 @@
 
 So gelangen Sie an unser Projekt:
 
--> Laden Sie unsere Datei (Informatikprojekt.Paula_und_Juliane.sb3) aus dem Gruppenordner herunter
+-> Laden Sie unsere Datei (Informatikprojekt.Paula_und_Juliane.sb3) aus dem Gruppenordner oder direkt von GitHub herunter
 
 -> Öffnen Sie [diese Website](https://scratch.mit.edu/projects/editor/?tutorial=getStarted)
 
