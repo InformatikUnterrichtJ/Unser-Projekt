@@ -41,7 +41,7 @@ Zu Anfang des Spiels wird dem Spieler die Steuerung erklärt. Zuerst wird man au
 
 ## Warum haben wir uns für Scratch entschieden?
 
-Wir haben uns für das Programm Scratch entschieden, da es durch das Blocksystem sehr intuitiv ist. Die Blöcke sind in Kategorien einsortiert, die am linken Bildschirmrand angezeigt werden, wodurch man einen guten Überblick bekommt. Die Blöcke selber sind farblich gekennzeichnet und können nach Belieben auf dem Bord platziert werden, wodurch der Code sehr übersichtlich dargestellt ist. Im Gegensatz zu Snap! kann man bei Scratch auch Schriftzüge als Kostüm erstellen. Snap! besitzt diese Möglichkeit nicht und schien uns somit nicht passend für unser Projekt zu sein.
+Wir haben uns für das Programm Scratch entschieden, da es durch das Blocksystem sehr intuitiv ist. Die Blöcke sind in Kategorien einsortiert, die am linken Bildschirmrand angezeigt werden, wodurch man einen guten Überblick bekommt. Die Blöcke sind farblich gekennzeichnet und können nach Belieben auf dem Bord platziert werden, wodurch der Code sehr übersichtlich dargestellt ist. Im Gegensatz zu Snap! kann man bei Scratch auch Schriftzüge als Kostüm erstellen. Snap! besitzt diese Möglichkeit nicht und schien uns somit nicht passend für unser Projekt zu sein.
 
 Wir haben jedoch nicht nur Scratch für unser Projekt benutzt. Um die Kostüme zu gestalten, haben wir die IPad-Version des Programms Affinity Designer genutzt. Da dieses jedoch einen Hintergrund kreiert, wenn die Datei als PNG oder JPEG exportiert wird, nutzten wir zusätzlich die Website www.remove.bg, um den Hintergrund wieder verschwinden zu lassen. 
 
