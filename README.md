@@ -115,7 +115,7 @@ Nach der Farbauswahl soll nur der farblich zugehörige Laser des ausgewählten R
 
 Ist der Laser aktiv dadurch, dass die zugehörige Zahlentaste gedrückt wurde, so durchläuft er eine endlose Schliefe. In der Schleife wartet er darauf, dass „a“ gedrückt wird. Tritt dieser Fall ein, wird ein Sound abgespielt und ein Klon kreiert. Damit das Drücken der „a“-Taste nur einen Laser abschießt und nicht mehrere, wartet der Laser am Ende der Schleife bis „a“ nicht mehr gedrückt wird. So wiederholt sich die Schleife erst, wenn „a“ losgelassen und eine kurze Pause abgewartet wurde. Die Pause ist zeitlich nicht wirklich relevant, verhindert jedoch, dass der Laser gespammt wird.
 
-Startet der Laser als Klon, geht er erst zum zugehörigen Raumschiff und zeigt sich dann. Anschließend geht er fünfer Schritte auf der x-Achse, bis zum Rand, wo er gelöscht wird. Parallel läuft ein Script, welches darauf wartet, dass ein Meteorit berührt wird und den Klon löscht, sobald dies eintrifft. Der Laser läuft somit vom Punkt, wo dieser abgeschossen wird, nach rechts über den Bildschirm und wird gelöscht, wenn er einen Meteoriten berührt oder am Rand angekommen ist.
+Startet der Laser als Klon, geht er erst zum zugehörigen Raumschiff und zeigt sich dann. Anschließend geht er Fünfer-Schritte auf der x-Achse, bis zum Rand, wo er gelöscht wird. Parallel läuft ein Script, welches darauf wartet, dass ein Meteorit berührt wird und den Klon löscht, sobald dies eintrifft. Der Laser läuft somit vom Punkt, wo dieser abgeschossen wird, nach rechts über den Bildschirm und wird gelöscht, wenn er einen Meteoriten berührt oder am Rand angekommen ist.
 
 ##### IV. Meteroiten
 Aussehen des Sprites:
