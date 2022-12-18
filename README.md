@@ -135,6 +135,35 @@ Zusätzlich durchlaufen die Klone eine Schleife, die prüft, ob der Klon von ein
 ##### V. Farbauswahl
 Aussehen des Bildschirms:
 ![Download](https://user-images.githubusercontent.com/111415429/208243557-22cf11d7-5fc6-467c-a2eb-45489e5c2b53.png)
+
+Die Farbauswahl besteht aus einem Schriftzug, der durch die Leertaste an dem ihm zugewiesenden Platz auftaucht und durch das auswählen einer Farbe, sowie durch das Drücken der Fahne wieder verschwindet, und den Farbknöpfen.
+
+Code:
+
+<img width="443" alt="Bildschirmfoto code_farbauswahl" src="https://user-images.githubusercontent.com/111415429/208298397-e1de589e-00b9-4a4d-ac98-97d124e65838.png">
+
+Die Farbknöpfe sind einzelnt programmiert. Sie folgen dem gleichen Prinzip wie dem Schriftzug. Die X-Koordinate des zugewiesenden Platzes varriert hierbei je nach Knopf.
+
+Code (Beispiel: button blau):
+
+<img width="442" alt="Bildschirmfoto code_button" src="https://user-images.githubusercontent.com/111415429/208298588-10ed8051-6cb2-4b50-ac8f-56a667cbc908.png">
+
 ##### VI. Schriftzüge
+
+Die Schrifftzüge folgen alle dem selben Prinzip. Sie sollen zu einem bestimmten Zeitpunkt auftauchen und verschwinden sobald sie ihre Aufgabe getan haben. Um Dies zu erleichtern haben wir den Block "wait until color is picked" kreiert. Ebenfalls wurde darauf geachtet, dass die Schriftzüge immer in der Obersten Lage sind, damit sie nicht verdeckt werden können.
+
+<img width="388" alt="Bildschirmfoto 2022-12-18 um 13 38 14" src="https://user-images.githubusercontent.com/111415429/208298817-22fc1529-3257-4d29-bfdf-f0acee00e628.png">
+
+Er besagt nur, dass gewartet werden soll, bis eine der Zahlentasten zum auswählen einer farbe gedrückt wurde.
+
   ###### → "Bewege dich mit den Pfeiltasten nach Oben und Unten"
+  
+  <img width="402" alt="Bildschirmfoto code_pfeiltasten" src="https://user-images.githubusercontent.com/111415429/208298884-ca5002de-9b6d-4c08-9260-b97d861eb1bd.png">
+
+Der Schrifftzug soll erscheinen, sobald die Spielphase begonnen hat und die Animation des ausgewählen Raumschiffes durchgespielt wurde. Diese deuert ca. drei sekunden. Anschließend verschwindet der Schrifftzug, wenn das in ihm besagte getan wurde, also der Spieler sich mit den Pfeiltasten bewegt hat.
+  
   ###### → "Drücke "a" zum Schießen
+  
+  <img width="403" alt="Bildschirmfoto code_ a" src="https://user-images.githubusercontent.com/111415429/208298991-26b80e8e-9df5-447d-89e0-fc9052715a07.png">
+
+Damit der Spieler sich zuerst mit der Grundsteuerung bekannt machen kann, wartet der Schrifftzug weitere 30 sekunden nachdem der erste Schrifftzug verschwunden ist. Auch dieser Schriftzug verschwindet, sobald das in ihm besagte ausgeführt wurde, in diesem Fall ist das das Drücken von "a".
