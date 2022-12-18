@@ -24,7 +24,7 @@ So gelangen sie an unser Projekt:
   
   IV. [Meteroiten](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#iv-meteroiten)
   
-  V. [Farbauswahl](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#5-farbauswahl)
+  V. [Farbauswahl](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#v-farbauswahl)
   
   VI. [Schriftzüge](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6-schriftz%C3%BCge) 
     
@@ -90,7 +90,7 @@ Code:
 
 Damit der Sprite nicht auf dem Startbildschirm zu sehen ist, wird dieser versteckt, wenn die Fahne angeklickt wird.
 
-Wenn die Leertaste gedrückt wird kommt zuerst die [Farbauswahl](. Das Raumschiff taucht durch das drücken der Leertaste bei dem für ihn zugewiesenden Platz bei der Farbauswahl auf. An dieser Stelle werden die farblich unterschiedlichen Raumschiffe auf der Linie mit der x-Koordinate -150 aufgereiht. Die y-Koordinate varriert hierbei je nach Farbe des Raumschiffs (blau= 105, grün= 35, rot= -35, gelb= -105). Außerdem wird die eigene Variable auf Null gesetzt.
+Wenn die Leertaste gedrückt wird kommt zuerst die [Farbauswahl](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#v-farbauswahl). Das Raumschiff taucht durch das drücken der Leertaste bei dem für ihn zugewiesenden Platz bei der Farbauswahl auf. An dieser Stelle werden die farblich unterschiedlichen Raumschiffe auf der Linie mit der x-Koordinate -150 aufgereiht. Die y-Koordinate varriert hierbei je nach Farbe des Raumschiffs (blau= 105, grün= 35, rot= -35, gelb= -105). Außerdem wird die eigene Variable auf Null gesetzt.
 
 Anschließend wartet das Raumschiff darauf, dass es von dem Sprite "Meteroit" berührt wird. Tritt dieser Fall ein, so wird das Kostüm erst zur Explosion gewechselt und anschließend verschwindet der Sprite und taucht als "Verloren!"-Schriftzug in der Mitte des Bildschirms auf. Die eigene Variable wird auch hier wieder auf Null gesetzt, damit die Steuerung der Pfeiltasten ausgesetzt wird.
 
