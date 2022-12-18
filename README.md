@@ -117,7 +117,7 @@ Ist der Laser aktiv dadurch, dass die zugehörige Zahlentaste gedrückt wurde, s
 
 Startet der Laser als Klon, geht er erst zum zugehörigen Raumschiff und zeigt sich dann. Anschließend geht er Fünfer-Schritte auf der x-Achse, bis zum Rand, wo er gelöscht wird. Parallel läuft ein Script, welches darauf wartet, dass ein Meteorit berührt wird und den Klon löscht, sobald dies eintrifft. Der Laser läuft somit vom Punkt, wo dieser abgeschossen wird, nach rechts über den Bildschirm und wird gelöscht, wenn er einen Meteoriten berührt oder am Rand angekommen ist.
 
-##### IV. Meteroiten
+##### IV. Meteoriten
 Aussehen des Sprites:
 - Meteroit1
 
