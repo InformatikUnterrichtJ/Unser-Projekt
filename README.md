@@ -26,7 +26,7 @@ So gelangen sie an unser Projekt:
   
   V. [Farbauswahl](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#v-farbauswahl)
   
-  VI. [Schriftzüge](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6-schriftz%C3%BCge) 
+  VI. [Schriftzüge](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#vi-schriftz%C3%BCge) 
     
     → ["Bewege dich mit den Pfeiltasten nach Oben und Unten"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6a-bewege-die-mit-den-pfeiltasten-nach-oben-und-unten)
     
