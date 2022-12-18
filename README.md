@@ -3,14 +3,22 @@
 - [Die Spielidee](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#die-spielidee)
 - [Übersicht zur Steuerung](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#%C3%BCbersicht-zur-steuerung)
 - [Elemente des Spiels](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#elemente-des-spiels)
-  1. [Startbildschirm](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#1-startbildschirm)
-  2. [Raumschiff](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#2-raumschiff)
-  3. [Laser](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#3-laser)
-  4. [Meteroiten](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#4-meteroiten)
-  5. [Farbauswahl](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#5-farbauswahl)
-  6. [Schriftzüge](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6-schriftz%C3%BCge)
-    6a. ["Bewege dich mit den Pfeiltasten nach Oben und Unten"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6a-bewege-die-mit-den-pfeiltasten-nach-oben-und-unten)
-    6b. ["Drücke "a" zum Schießen"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6b-dr%C3%BCcke-a-zum-schie%C3%9Fen)
+  
+  I. [Startbildschirm](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#1-startbildschirm)
+  
+  II. [Raumschiff](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#2-raumschiff)
+  
+  III. [Laser](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#3-laser)
+  
+  IV. [Meteroiten](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#4-meteroiten)
+  
+  V. [Farbauswahl](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#5-farbauswahl)
+  
+  VI. [Schriftzüge](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6-schriftz%C3%BCge) 
+    
+    → ["Bewege dich mit den Pfeiltasten nach Oben und Unten"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6a-bewege-die-mit-den-pfeiltasten-nach-oben-und-unten)
+    
+    → ["Drücke "a" zum Schießen"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6b-dr%C3%BCcke-a-zum-schie%C3%9Fen)
 
 ## Die Spielidee
 Das Spiel kann man den Arkade-Shootern zuordnen. Die Idee ist, dass man ein Raumschiff auf der linken Seite des Bildschirms steuert um den Meteroiten, die von links nach rechts über den Bildschirm fliegen, ausweicht und diese zerschießt.
@@ -29,7 +37,7 @@ Zu Anfang des Spiels wird dem Spieler die Steuerung erklärt. Zuerst wird man au
 "a"= Raumschiff schießt einen Laser
 
 ## Elemente des Spiels
-##### 1. Startbildschirm
+##### I. Startbildschirm
 -> Soll zu Anfang des Spiels gezeigt werden und anschließend nicht mehr auftauschen ab dem Moment wo die Leertaste gedrückt wurde
 
 Aussehen des Sprites:
@@ -41,7 +49,7 @@ Code:
 <img width="218" alt="Bildschirmfoto 2022-12-17 um 14 21 25" src="https://user-images.githubusercontent.com/111415429/208245038-92eba36b-899c-46a1-8541-f4fb1f62b22e.png">
 
 
-##### 2. Raumschiff
+##### II. Raumschiff
 Aussehen des Sprites:
 - blau
 
@@ -76,7 +84,7 @@ Wird das farblich passende Raumschiff bei der Farbauswahl ausgewählt, indem die
 
 Die Steuerung der Raumschiffe geschieht durch die Pfeiltasten. Werden diese gedrückt, bewegt sich das Raumschiff, dessen eigene Variable zuvor zu Eins gewechselt wurde, solange in die Richtung der Pfeiltaste bis diese nicht mehr gedrückt wird. Dies ermöglicht dem Raumschiff sich flüssig zu bewegen. Die Dreierschritte wurden gewählt, da diese die ideale Geschwindigkeit für die Bewegung darstellen.
 
-##### 3. Laser
+##### III. Laser
 blau: ![costume1](https://user-images.githubusercontent.com/111415429/208244740-1d18efe7-f0d5-4444-87a8-6cde8b4c5818.svg), grün:  ![costume1 (1)](https://user-images.githubusercontent.com/111415429/208244745-c05175e0-a0ba-4683-97c6-3997447d7889.svg), rot: ![costume1 (2)](https://user-images.githubusercontent.com/111415429/208244751-618e5388-3aa8-445e-9128-b142ed6bf9df.svg), gelb:  ![costume1 (3)](https://user-images.githubusercontent.com/111415429/208244757-c54f6152-cac2-4ab6-947b-785f6caba59c.svg)
 
 Code:
@@ -91,7 +99,7 @@ Ist der Laser aktiv, dadurch das die zugehörige Zahlentaste gedrückt wurde, so
 
 Startet der Laser als Klon, geht er erst zum zugehörigen Raumschiff und zeigt sich dann. Anschließend geht er, bis zum Rand, wo er gelöscht wird, fünfer Schritte auf der x-Achse. Parallel läuft ein Script, welches darauf wartet, dass ein Meteroit berührt wird und den Klon löscht, sobald dies eintrifft. Der Laser läuft somit vom Punkt, wo dieser abgeschossen wird nach rechts über den Bildschirm und wird gelöscht, wenn er einen Meteroiten berührt oder am Rand angekommen ist.
 
-##### 4. Meteroiten
+##### IV. Meteroiten
 Aussehen des Sprites:
 - Meteroit1
 
@@ -105,9 +113,9 @@ Aussehen des Sprites:
 - Explosion
 
 ![Explosion](https://user-images.githubusercontent.com/111415429/208243470-a56a0e54-3050-4b4f-8c96-968b787303a4.png)
-##### 5. Farbauswahl
+##### V. Farbauswahl
 Aussehen des Bildschirms:
 ![Download](https://user-images.githubusercontent.com/111415429/208243557-22cf11d7-5fc6-467c-a2eb-45489e5c2b53.png)
-##### 6. Schriftzüge
-  ###### 6a. "Bewege dich mit den Pfeiltasten nach Oben und Unten"
-  ###### 6b. "Drücke "a" zum Schießen
+##### VI. Schriftzüge
+  ###### → "Bewege dich mit den Pfeiltasten nach Oben und Unten"
+  ###### → "Drücke "a" zum Schießen
