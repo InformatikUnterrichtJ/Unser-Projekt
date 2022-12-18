@@ -144,23 +144,23 @@ Die andere Variable, die abgeändert wird, damit das Spiel schwieriger wird, hei
 
 <img width="586" alt="Bildschirmfoto code_meteroit bewegung" src="https://user-images.githubusercontent.com/111415429/208296971-8d638a01-1a57-44b2-bdec-56c9e9a1fae2.png">
 
-In der am Anfang beschriebenden Endlosschleife, wechselt der Sprite zu Anfang das Kostüm, jedoch besitzt der Sprite ebenfalls ein Kostüm für die Explosion, das benötigt wird für die Animation, wenn der Sprite getroffen wird. Um zu umgehen, dass dieses Kostüm angezeigt wird bei den Meteroiten die über den Bildschirm fliegen, wird sobald ein Klon entsteht dieser darauf geprüft, ob er das Explosions-Kostüm trägt. Sollte dies der Fall sein ändert er sein Kostüm zu Meteroit1 und durchläuft dann das restliche Protokol. Andernfalls durchläuft er sofot das Bewegungsprotokoll. Die Protkolle in der If-else-Klammer sind somit bisauf den Kostümwechsel identisch. Sie besagen, dass der Klon in einer zufälligen Position auf der Linie mit der x-Koordinate 260 auftaucht, die Laufrichtung auf -90° setzt, was von rechts nach links über den Bildschirm entspricht, und von dort fortlaufend der Variable ["steps"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#:~:text=neuer%20Klon%20entsteht.-,Die,-andere%20Variable%20die) entsprechend Schritte in die vorgegebene Richtung geht. Am Ende von jedem Schleifendurchlauf wird dabei der Status "von Laser getroffen" geprüft. Sollte dieser gleich Eins, bezieungsweise aktiv sein, wird das Script und somit auch die fortlaufende Schleife gestoppt.
+In der am Anfang beschriebenen Endlosschleife, wechselt der Sprite zu Anfang das Kostüm, jedoch besitzt der Sprite ebenfalls ein Kostüm für die Explosion, das benötigt wird für die Animation, wenn der Sprite getroffen wird. Um zu umgehen, dass dieses Kostüm angezeigt wird bei den Meteoriten, die über den Bildschirm fliegen wird, sobald ein Klon entsteht, dieser darauf geprüft, ob er das Explosions-Kostüm trägt. Sollte dies der Fall sein, ändert er sein Kostüm zu Meteroit1 und durchläuft dann das restliche Protokoll. Andernfalls durchläuft er sofort das Bewegungsprotokoll. Die Protokolle in der If-Else-Klamme sind somit bis auf den Kostümwechsel identisch. Sie besagen, dass der Klon in einer zufälligen Position auf der Linie mit der x-Koordinate 260 auftaucht, die Laufrichtung auf -90° setzt, was von rechts nach links über den Bildschirm entspricht, und von dort fortlaufend der Variable ["steps"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#:~:text=neuer%20Klon%20entsteht.-,Die,-andere%20Variable%20die) entsprechend Schritte in die vorgegebene Richtung geht. Am Ende von jedem Schleifendurchlauf wird dabei der Status „von Laser getroffen“ geprüft. Sollte dieser gleich Eins, beziehungsweise aktiv sein, wird das Script und somit auch die fortlaufende Schleife gestoppt.
 
 Ebenfalls wartet der Klon darauf, dass seine X-Position kleiner als -250 ist und wird, sobald dies eintrifft gelöscht. Hierdurch wird sichergestellt, dass die Klone am linken Bildschirmrand verschwinden und dort nicht einfach stehen bleiben.
 
-Zusätzlich durchlaufen die Klone eine Schleife, die prüft, ob der Klon von einem Laser berührt wird und diesen eine Explosionsanimation durchlaufen lässt, sobald dies der Fall ist. Nach er Animition wird der Klon gelöscht, damit das Raumschiff nicht mehr von ihm getroffen werden kann. Damit jedoch nicht das Bewegungsscript der nächsten Klone gestoppt wird, wird zu beginn der Schleife der Status "von Laser getroffen" wieder deaktiviert, beziehungsweise auf Null gesetzt.
+Zusätzlich durchlaufen die Klone eine Schleife, die prüft, ob der Klon von einem Laser berührt wird und diesen eine Explosionsanimation durchlaufen lässt, sobald dies der Fall ist. Nach er Animation wird der Klon gelöscht, damit das Raumschiff nicht mehr von ihm getroffen werden kann. Damit jedoch nicht das Bewegungsscript der nächsten Klone gestoppt wird, wird zu Beginn der Schleife der Status „von Laser getroffen“ wieder deaktiviert, beziehungsweise auf null gesetzt.
 
 ##### V. Farbauswahl
 Aussehen des Bildschirms:
 ![Download](https://user-images.githubusercontent.com/111415429/208243557-22cf11d7-5fc6-467c-a2eb-45489e5c2b53.png)
 
-Die Farbauswahl besteht aus einem Schriftzug und den Farbknöpfen, die durch das Drücken der Leertaste an dem ihm zugewiesenden Platz auftaucht und durch das Auswählen einer Farbe, sowie durch das Anklicken der Fahne wieder verschwindet.
+Die Farbauswahl besteht aus einem Schriftzug und den Farbknöpfen, die durch das Drücken der Leertaste an dem ihm zugewiesenen Platz auftaucht und durch das Auswählen einer Farbe, sowie durch das Anklicken der Fahne wieder verschwindet.
 
 Code:
 
 <img width="443" alt="Bildschirmfoto code_farbauswahl" src="https://user-images.githubusercontent.com/111415429/208298397-e1de589e-00b9-4a4d-ac98-97d124e65838.png">
 
-Die Farbknöpfe sind einzelnt programmiert. Sie folgen dem gleichen Prinzip wie dem Schriftzug. Die X-Koordinate des zugewiesenden Platzes varriert hierbei je nach Knopf.
+Die Farbknöpfe sind einzeln programmiert. Sie folgen dem gleichen Prinzip wie dem Schriftzug. Die X-Koordinate des zugewiesenen Platzes variiert hierbei je nach Knopf.
 
 Code (Beispiel: button blau):
 
@@ -168,7 +168,7 @@ Code (Beispiel: button blau):
 
 ##### VI. Schriftzüge
 
-Die Schrifftzüge folgen alle dem selben Prinzip. Sie sollen zu einem bestimmten Zeitpunkt auftauchen und verschwinden sobald sie ihre Aufgabe getan haben. Um Dies zu erleichtern haben wir den Block "wait until color is picked" kreiert. Ebenfalls wurde darauf geachtet, dass die Schriftzüge immer in der obersten Lage sind, damit sie nicht verdeckt werden können.
+Die Schriftzüge folgen alle demselben Prinzip. Sie sollen zu einem bestimmten Zeitpunkt auftauchen und verschwinden, sobald sie ihre Aufgabe getan haben. Um dies zu erleichtern haben wir den Block „wait until color is picked“ kreiert. Ebenfalls wurde darauf geachtet, dass die Schriftzüge immer in der obersten Lage sind, damit sie nicht verdeckt werden können.
 
 <img width="388" alt="Bildschirmfoto 2022-12-18 um 13 38 14" src="https://user-images.githubusercontent.com/111415429/208298817-22fc1529-3257-4d29-bfdf-f0acee00e628.png">
 
@@ -178,10 +178,10 @@ Der Block besagt, dass gewartet werden soll, bis eine der Zahlentasten zum Ausw�
   
   <img width="402" alt="Bildschirmfoto code_pfeiltasten" src="https://user-images.githubusercontent.com/111415429/208298884-ca5002de-9b6d-4c08-9260-b97d861eb1bd.png">
 
-Der Schrifftzug soll erscheinen, sobald die Spielphase begonnen hat und die Animation des ausgewählen Raumschiffes durchgespielt wurde. Die Animation dauert ca. drei Sekunden. Anschließend verschwindet der Schriftzug, wenn das in ihm besagte getan wurde, also der Spieler sich mit den Pfeiltasten bewegt hat.
+Der Schriftzug soll erscheinen, sobald die Spielphase begonnen hat und die Animation des ausgewählten Raumschiffes durchgespielt wurde. Die Animation dauert ca. drei Sekunden. Anschließend verschwindet der Schriftzug, wenn das in ihm besagte getan wurde, also der Spieler sich mit den Pfeiltasten bewegt hat.
   
   ###### → "Drücke "a" zum Schießen
   
   <img width="403" alt="Bildschirmfoto code_ a" src="https://user-images.githubusercontent.com/111415429/208298991-26b80e8e-9df5-447d-89e0-fc9052715a07.png">
 
-Damit der Spieler sich zuerst mit der Grundsteuerung bekannt machen kann, wartet der Schriftzug weitere 30 Sekunden nachdem der erste Schrifftzug verschwunden ist. Auch dieser Schriftzug verschwindet, sobald das in ihm besagte ausgeführt wurde, in diesem Fall ist das das Drücken von "a".
+Damit der Spieler sich zuerst mit der Grundsteuerung bekannt machen kann, wartet der Schriftzug weitere 30 Sekunden, nachdem der erste Schriftzug verschwunden ist. Auch dieser Schriftzug verschwindet, sobald das in ihm besagte ausgeführt wurde, in diesem Fall ist das das Drücken von „a“.
