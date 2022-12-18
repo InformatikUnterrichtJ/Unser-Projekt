@@ -28,7 +28,7 @@ So gelangen Sie an unser Projekt:
   
   VI. [Schriftzüge](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#vi-schriftz%C3%BCge) 
     
-    → ["Bewege dich mit den Pfeiltasten nach Oben und Unten"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#-bewege-dich-mit-den-pfeiltasten-nach-oben-und-unten)
+    → [„Bewege dich mit den Pfeiltasten nach Oben und Unten"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#-bewege-dich-mit-den-pfeiltasten-nach-oben-und-unten)
     
     → ["Drücke „a“ zum Schießen"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6b-dr%C3%BCcke-a-zum-schie%C3%9Fen)
 
@@ -174,13 +174,13 @@ Die Schriftzüge folgen alle demselben Prinzip. Sie sollen zu einem bestimmten Z
 
 Der Block besagt, dass gewartet werden soll, bis eine der Zahlentasten zum Auswählen einer Farbe gedrückt wurde.
 
-  ###### → "Bewege dich mit den Pfeiltasten nach Oben und Unten"
+  ###### → „Bewege dich mit den Pfeiltasten nach Oben und Unten"
   
   <img width="402" alt="Bildschirmfoto code_pfeiltasten" src="https://user-images.githubusercontent.com/111415429/208298884-ca5002de-9b6d-4c08-9260-b97d861eb1bd.png">
 
 Der Schriftzug soll erscheinen, sobald die Spielphase begonnen hat und die Animation des ausgewählten Raumschiffes durchgespielt wurde. Die Animation dauert ca. drei Sekunden. Anschließend verschwindet der Schriftzug, wenn das in ihm besagte getan wurde, also der Spieler sich mit den Pfeiltasten bewegt hat.
   
-  ###### → "Drücke "a" zum Schießen
+  ###### → "Drücke „a" zum Schießen
   
   <img width="403" alt="Bildschirmfoto code_ a" src="https://user-images.githubusercontent.com/111415429/208298991-26b80e8e-9df5-447d-89e0-fc9052715a07.png">
 
