@@ -6,9 +6,9 @@ So gelangen Sie an unser Projekt:
 
 -> Öffnen Sie [diese Website](https://scratch.mit.edu/projects/editor/?tutorial=getStarted)
 
--> Klicken Sie auf "File" oben links in der Ecke
+-> Klicken Sie auf „File" oben links in der Ecke
 
--> Klicken Sie auf "Load from your Computer" und öffnen sie unsere Datei
+-> Klicken Sie auf „Load from your Computer" und öffnen sie unsere Datei
 
 ### Inhaltsverzeichnis
 - [Die Spielidee](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#die-spielidee)
@@ -22,7 +22,7 @@ So gelangen Sie an unser Projekt:
   
   III. [Laser](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#iii-laser)
   
-  IV. [Meteroiten](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#iv-meteroiten)
+  IV. [Meteoriten](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#iv-meteoriten)
   
   V. [Farbauswahl](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#v-farbauswahl)
   
@@ -30,20 +30,20 @@ So gelangen Sie an unser Projekt:
     
     → ["Bewege dich mit den Pfeiltasten nach Oben und Unten"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6a-bewege-die-mit-den-pfeiltasten-nach-oben-und-unten)
     
-    → ["Drücke "a" zum Schießen"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6b-dr%C3%BCcke-a-zum-schie%C3%9Fen)
+    → ["Drücke „a“ zum Schießen"](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#6b-dr%C3%BCcke-a-zum-schie%C3%9Fen)
 
 ## Die Spielidee
-Das Spiel kann man den Arkade-Shootern zuordnen. Die Idee ist, dass man ein Raumschiff auf der linken Seite des Bildschirms steuert um den Meteroiten, die von links nach rechts über den Bildschirm fliegen, ausweicht und diese zerschießt.
+Das Spiel kann man den Arkade-Shootern zuordnen. Die Idee ist, dass man ein Raumschiff auf der linken Seite des Bildschirms steuert, um den Meteoriten, die von links nach rechts über den Bildschirm fliegen, ausweicht und diese zerschießt.
 
-Gesteuert wird das Spiel mit der Tastaur, wobei die Zahlentasten zum Auswählen der Farbe benutzt werden, die Pfeiltasten das Raumschiff bewegen und mit der "a"-Taste geschossen wird. Nur zum Neustarten wird eine Maus benötigt, da dies durch das Anklicken des Fahnensymbols geschieht.
+Gesteuert wird das Spiel mit der Tastatur, wobei die Zahlentasten zum Auswählen der Farbe benutzt werden, die Pfeiltasten das Raumschiff bewegen und mit der „a“-Taste geschossen wird. Nur zum Neustarten wird eine Maus benötigt, da dies durch das Anklicken des Fahnensymbols geschieht.
 
-Zu Anfang des Spiels wird dem Spieler die Steuerung erklärt. Zuerst wird man aufgefordert die Pfeiltasten zu benutzen, damit die Bewegungssteuerung erprobt werden kann, wird dem Spieler erst nach einer 30 sekündigen Pause erklärt, dass er "a" zum Schießen nutzen kann. Nachdem die Pfeiltasten erstmalig benutzt wurden werden die Meteroiten in regelmäßigen Absänden mehr und bewegen sich auch schneller, wodurch das Spiel zunehmend schwieriger wird. Auf dem Bildschirm wird mit einer Anzeige mitgezählt wie viele Meteroiten während des Spieldurchgangs getroffen wurden. Enden tut das Spiel, wenn das Raumschiff von einem Meteroiten getroffen wird. Level gibt es keine, da es sich um ein endloses Spiel handelt, welches zunehmend schwieriger wird und somit den Spieler zum Scheitern bringt, wodurch das Spiel dann endet.
+Zu Anfang des Spiels wird dem Spieler die Steuerung erklärt. Zuerst wird man aufgefordert, die Pfeiltasten zu benutzen, damit die Bewegungssteuerung erprobt werden kann, wird dem Spieler erst nach einer 30-sekündigen Pause erklärt, dass er „a“ zum Schießen nutzen kann. Nachdem die Pfeiltasten erstmalig benutzt wurden, werden die Meteoriten in regelmäßigen Abständen mehr und bewegen sich auch schneller, wodurch das Spiel zunehmend schwieriger wird. Auf dem Bildschirm wird mit einer Anzeige mitgezählt, wie viele Meteoriten während des Spieldurchgangs getroffen wurden. Enden tut das Spiel, wenn das Raumschiff von einem Meteoriten getroffen wird. Level gibt es keine, da es sich um ein endloses Spiel handelt, welches zunehmend schwieriger wird und somit den Spieler zum Scheitern bringt, wodurch das Spiel dann endet.
 
 ## Warum haben wir uns für Scratch entschieden?
 
-Wir haben uns für das Programm Scratch entschieden, da es durch das Blocksystem sehr intuitiv ist. Die Blöcke sind in Kategorien einsortiert, die am linken Bildschirmrand angezeigt werden, wodurch man einen guten Überblick bekommt. Die Blöcke selber sind farblich gekenntzeichent und können nach Belieben auf dem Bord platziert werden, wodurch der Code sehr übersichtlich dargestellt ist. Im Gegensatz zu Snap! kann man bei Scratch auch Schriftzüge als Kostüm erstellen. Snap! besitzt diese Möglichkeit nicht und schien uns somit nicht passend für unser Projekt zu sein.
+Wir haben uns für das Programm Scratch entschieden, da es durch das Blocksystem sehr intuitiv ist. Die Blöcke sind in Kategorien einsortiert, die am linken Bildschirmrand angezeigt werden, wodurch man einen guten Überblick bekommt. Die Blöcke selber sind farblich gekennzeichnet und können nach Belieben auf dem Bord platziert werden, wodurch der Code sehr übersichtlich dargestellt ist. Im Gegensatz zu Snap! kann man bei Scratch auch Schriftzüge als Kostüm erstellen. Snap! besitzt diese Möglichkeit nicht und schien uns somit nicht passend für unser Projekt zu sein.
 
-Wir haben jedoch nicht nur Scratch für unser Projekt benutzt. Um die Kostüme zu gestallten haben wir die IPad-Version des Programms Affinity Designer genutzt. Da dieses jedoch einen Hinergrund kreiert, wenn die Datei als png oder jpeg exportiert wird, nutzten wir zusätzlich die Website www.remove.bg, um den Hintergrund wieder verschwinden zu lassen. 
+Wir haben jedoch nicht nur Scratch für unser Projekt benutzt. Um die Kostüme zu gestalten, haben wir die IPad-Version des Programms Affinity Designer genutzt. Da dieses jedoch einen Hintergrund kreiert, wenn die Datei als PNG oder JPEG exportiert wird, nutzten wir zusätzlich die Website www.remove.bg, um den Hintergrund wieder verschwinden zu lassen. 
 
 ## Übersicht zur Steuerung
 ⚑= Neustarten des Spiels
