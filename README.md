@@ -113,6 +113,15 @@ Aussehen des Sprites:
 - Explosion
 
 ![Explosion](https://user-images.githubusercontent.com/111415429/208243470-a56a0e54-3050-4b4f-8c96-968b787303a4.png)
+
+Code:
+
+<img width="685" alt="Bildschirmfoto code_meterorit verhalten" src="https://user-images.githubusercontent.com/111415429/208295472-da9b49f8-66ff-4463-82b4-259611de9043.png">
+
+Dem Meteroiten sind mehrere Variablen zugeschrieben, die beim Neustarten des Spiels alle wieder zum Ausgangszustand gesetzt werden müssen. Der Zähler der getroffenen Meteroiten und der Status "von Laser getroffen" werden durch die Fahne wieder auf Null gesetzt (für den Status bedeutet dies inaktiv) und die beiden anderen Variablen durch das drücken der Leertaste wieder auf den Ausgangszustand. Zusätzlich wird der Zähler für die Meteroiten wieder versteckt, damit dieser nicht zu sehen ist, wenn das eigentliche Spielen noch nicht begonnen hat. Der Meteroit wird ebenfalls versteckt. Nun wartet der Meteroit, bis das eigentliche Spiel beginnt. Das heißt, bis eine Farbe ausgesucht wurde (Block siehe Schriftzüge → "...Pfeiltasten...") und die Pfeiltasten erstmalig benutzt wurden. Somit wird verhindert, dass das Raumschiff schon von Meteroiten getroffen wird, wenn der Spieler noch nicht die Grundscteuerung verstanden hat.
+
+Jetzt wird der Zähler für getroffene Meteroiten gezeigt und in einer Endlosschleife zum nächsten Kostüm gewechselt, von diesem dann ein Klon erstellt und dann die Erscheinungsgeschwindigkeit als Pause abgewartet. Die Erscheinungsgeschwindigkeit ist eine Variable, die zu Beginn der Spielphase, also nach der farbauswahl und dem erstmaligen Benutzen der Pfeiltasten vom Spieler, erst zum Ausgangzustand zurückgesetzt wird und anschließend, bis sie kleiner als 0,5 ist, alle 10 sekunden um -0,01 geändert wird. Sie gibt an wie viele Sekunden abgewartet werden bis ein neuer Klon entsteht.
+
 ##### V. Farbauswahl
 Aussehen des Bildschirms:
 ![Download](https://user-images.githubusercontent.com/111415429/208243557-22cf11d7-5fc6-467c-a2eb-45489e5c2b53.png)
