@@ -12,7 +12,7 @@ So gelangen sie an unser Projekt:
 
 ### Inhaltsverzeichnis
 - [Die Spielidee](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#die-spielidee)
-- [Warum haben wir uns für Scratch entschieden?]
+- [Warum haben wir uns für Scratch entschieden?](https://github.com/InformatikUnterrichtJ/Unser-Projekt#warum-haben-wir-uns-f%C3%BCr-scratch-entschieden)
 - [Übersicht zur Steuerung](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#%C3%BCbersicht-zur-steuerung)
 - [Elemente des Spiels](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#elemente-des-spiels)
   
@@ -41,7 +41,9 @@ Zu Anfang des Spiels wird dem Spieler die Steuerung erklärt. Zuerst wird man au
 
 ## Warum haben wir uns für Scratch entschieden?
 
-Wir haben uns für das Programm Scratch entschieden, da es durch das Blocksystem sehr intuitiv ist. Die Blöcke sind in Kategorien einsortiert, die am linken Bildschirmrand angezeigt werden, wodurch man einen guten Überblick hat. Die Blöcke selber sind farblich gekenntzeichent und können nach belieben auf dem Bord platziert werden, 
+Wir haben uns für das Programm Scratch entschieden, da es durch das Blocksystem sehr intuitiv ist. Die Blöcke sind in Kategorien einsortiert, die am linken Bildschirmrand angezeigt werden, wodurch man einen guten Überblick hat. Die Blöcke selber sind farblich gekenntzeichent und können nach Belieben auf dem Bord platziert werden, wodurch der Code sehr übersichtlich dargestellt ist. Im Gegensatz zu Snap! kann man bei Scratch auch Schriftzüge als Kostüm erstellen. Snap! besitzt diese Möglichkeit nicht und schien uns somit nicht passend für unser Projekt zu sein.
+
+Wir haben jedoch nicht nur Scratch für unser Projekt benutzt. Um die Kostüme zu gestallten haben wir die IPad-Version des Programms Affinity Designer genutzt. Da dieses jedoch einen Hinergrund kreiert, wenn die Datei als png oder jpeg exportiert wird, nutzten wir zusätzlich die Website www.remove.bg, um diesen wieder verschwinden zu lassen. 
 
 ## Übersicht zur Steuerung
 ⚑= Neustarten des Spiels
