@@ -1,9 +1,18 @@
 # Unser-Projekt
 
-Öffnen sie unsere Datei auf [dieser Webseite](https://scratch.mit.edu/projects/editor/?tutorial=getStarted) , um zu unserem Projekt zu gelangen.
+So gelangen sie an unser Projekt:
+
+-> Laden sie unsere Datei (Informatikprojekt.Paula_und_Juliane.sb3) aus dem Gruppenordner herunter
+
+-> Öffnen sie [diese Website](https://scratch.mit.edu/projects/editor/?tutorial=getStarted)
+
+-> Klicken sie auf "File" oben links in der Ecke
+
+-> Klicken sie auf "Load from your Computer" und öffnen sie unsere Datei
 
 ### Inhaltsverzeichnis
 - [Die Spielidee](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#die-spielidee)
+- [Warum haben wir uns für Scratch entschieden?]
 - [Übersicht zur Steuerung](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#%C3%BCbersicht-zur-steuerung)
 - [Elemente des Spiels](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#elemente-des-spiels)
   
@@ -29,6 +38,10 @@ Das Spiel kann man den Arkade-Shootern zuordnen. Die Idee ist, dass man ein Raum
 Gesteuert wird das Spiel mit der Tastaur, wobei die Zahlentasten zum Auswählen der Farbe benutzt werden, die Pfeiltasten das Raumschiff bewegen und mit der "a"-Taste geschossen wird. Nur zum Neustarten wird eine Maus benötigt, da dies durch das Anklicken des Fahnensymbols geschieht.
 
 Zu Anfang des Spiels wird dem Spieler die Steuerung erklärt. Zuerst wird man aufgefordert die Pfeiltasten zu benutzen, damit die Bewegungssteuerung erprobt werden kann, wird dem Spieler erst nach einer 30 sekündigen Pause erklärt, dass er "a" zum Schießen nutzen kann. Nachdem die Pfeiltasten erstmalig benutzt wurden werden die Meteroiten in regelmäßigen Absänden mehr und bewegen sich auch schneller, wodurch das Spiel zunehmend schwieriger wird. Auf dem Bildschirm wird mit einer Anzeige mitgezählt wie viele Meteroiten während des Spieldurchgangs getroffen wurden. Enden tut das Spiel, wenn das Raumschiff von einem Meteroiten getroffen wird. Level gibt es keine, da es sich um ein endloses Spiel handelt, welches zunehmend schwieriger wird und somit den Spieler zum Scheitern bringt, wodurch das Spiel dann endet.
+
+## Warum haben wir uns für Scratch entschieden?
+
+Wir haben uns für das Programm Scratch entschieden, da es durch das Blocksystem sehr intuitiv ist. Die Blöcke sind in Kategorien einsortiert, die am linken Bildschirmrand angezeigt werden, wodurch man einen guten Überblick hat. Die Blöcke selber sind farblich gekenntzeichent und können nach belieben auf dem Bord platziert werden, 
 
 ## Übersicht zur Steuerung
 ⚑= Neustarten des Spiels
