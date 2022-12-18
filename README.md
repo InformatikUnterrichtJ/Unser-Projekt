@@ -6,7 +6,7 @@
   
   I. [Startbildschirm](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#i-startbildschirm)
   
-  II. [Raumschiff](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#2-raumschiff)
+  II. [Raumschiff](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#ii-raumschiff)
   
   III. [Laser](https://github.com/InformatikUnterrichtJ/Unser-Projekt/blob/main/README.md#3-laser)
   
